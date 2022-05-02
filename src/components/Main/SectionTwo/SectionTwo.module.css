@@ -1,0 +1,40 @@
+.sectionTwo_content {
+  display: flex;
+  align-items: center;
+  gap: 126px;
+}
+.cozy {
+  font-family: "Montserrat-Bold";
+
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 150%;
+  /* or 54px */
+
+  letter-spacing: -0.01em;
+
+  color: #192252;
+}
+.ourCootage {
+  margin-top: 24px;
+  font-family: "Montserrat-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  /* or 27px */
+
+  color: #848fac;
+}
+.cootlesExtends {
+  margin-top: 16px;
+  margin-bottom: 32px;
+  font-family: "Montserrat-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  /* or 27px */
+
+  color: #848fac;
+}
