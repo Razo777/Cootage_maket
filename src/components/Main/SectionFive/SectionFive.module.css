@@ -1,0 +1,102 @@
+.sectionFive_content {
+  padding: 80px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contactUs {
+  width: 36%;
+}
+.startJurney {
+  font-family: 'Inter-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+
+  color: #424f7b;
+}
+.getMyRoomTitle {
+  margin-top: 12px;
+  font-family: "Montserrat-Bold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 150%;
+  /* identical to box height, or 54px */
+
+  letter-spacing: -0.01em;
+
+  color: #192252;
+}
+.getMyRoomText {
+
+  margin-top: 24px;
+  font-family: "Inter-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  /* or 27px */
+
+  color: #848fac;
+}
+.contactUs_btn {
+  font-family: 'Inter-Medium';
+  font-weight: 500;
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.accardionDiv {
+  padding: 0 36px;
+  width: 49%;
+}
+.accordions {
+  padding: 32px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.accordionsTitle {
+  font-family: "Montserrat-Bold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  /* identical to box height, or 36px */
+
+  text-align: center;
+
+  color: #424f7b;
+}
+
+.arrowIcon {
+  box-sizing: content-box;
+  padding: 5px;
+  font-size: 35px;
+  color: #ff620a;
+  border-radius: 50%;
+  background-color: #ffece2;
+}
+.arrowIconUp {
+  box-sizing: content-box;
+  padding: 5px;
+  font-size: 35px;
+  color: #ffffff;
+  border-radius: 50%;
+  background-color: #ff620a;
+}
+.accardionsText {
+  font-family: "Inter-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  /* or 27px */
+
+  color: #848fac;
+}

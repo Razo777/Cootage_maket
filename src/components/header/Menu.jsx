@@ -5,11 +5,11 @@ export default function Menu() {
 
     return (
         <>
-            <div className={styles.menu}>
-                <p>Rooms</p>
-                <p>Reservation</p>
-                <p>Contacts</p>
-            </div>
+            <ul className={styles.menu}>
+                <li><a href="#">Rooms</a></li>
+                <li><a href="#">Reservation</a></li>
+                <li><a href="#">Contacts</a></li>
+            </ul>
         </>
     )
 }

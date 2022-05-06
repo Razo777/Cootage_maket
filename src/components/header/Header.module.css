@@ -1,23 +1,35 @@
-.cootels{
-    text-decoration: none;
-    color: #192252;
-    font-family: 'Montserrat-Bold';
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 39px;
+.cootels {
+  text-decoration: none;
+  color: #192252;
+  font-family: "Montserrat-Bold";
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
 }
-.header_content{
-    padding: 37px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
+.header_content {
+  padding: 37px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.menu{
-    display: flex;
-    align-items: center;
-    gap:32px;
-    font-size: 16px;
-    color: #192252;
-    
+.menu {
+  
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  font-family: "Inter-Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  
+}
+.menu>li{
+  list-style-type: none;
+  
+}
+.menu>li>a{
+  text-decoration: none;
+  color: #192252;
 }

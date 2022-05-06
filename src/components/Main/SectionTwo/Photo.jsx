@@ -5,7 +5,7 @@ export default function Photo() {
     return (
         <>
            <div className={style.sectionTwoPhoto}>
-             <img src='house.png'/>
+             <img src='house.png' alt=''/>
            </div>
         </>
     )

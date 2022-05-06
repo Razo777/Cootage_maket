@@ -6,9 +6,9 @@ export default function Photo() {
     return (
         <>
            <div className={style.photo}>
-           <img src='partone.png'/>
-           <img style={{marginTop:'90px'}} src='parttwo.png'/>
-           <img src='parttree.png'/>
+           <img src='partone.png' alt=''/>
+           <img style={{marginTop:'85px'}} src='parttwo.png' alt=''/>
+           <img src='parttree.png' alt=''/>
            </div>
         </>
     )

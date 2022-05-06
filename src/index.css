@@ -3,10 +3,24 @@
 
 @font-face {
   font-family: 'Montserrat-Bold';
-  src:local('Montserrat'), url(../public/fonts/MontserratAlternates-Bold.ttf) format("truetype") ;
+  src:local('Montserrat'), url(../public/fonts/Montserrat-SemiBold.ttf) format("truetype") ;
 }
 @font-face {
   font-family: 'Montserrat-Regular';
-  src:local('Montserrat'), url(../public/fonts/MontserratAlternates-SemiBold.ttf) format("truetype") ;
+  src:local('Montserrat'), url(../public/fonts/Montserrat-Regular.ttf) format("truetype") ;
 }
 
+@font-face {
+  font-family: 'Inter-Regular';
+  src: local('Inter'), url(../public/fonts/Inter-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'Inter-Medium';
+  src: local('Inter'), url(../public/fonts/Inter-Medium.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'Inter-Bold';
+  src: local('Inter'), url(../public/fonts/Inter-Bold.ttf) format("truetype");
+}
