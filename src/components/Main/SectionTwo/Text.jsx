@@ -3,7 +3,7 @@ import styles from "./SectionTwo.module.css";
 export default function Text() {
   return (
     <>
-      <div>
+      <div style={{width:"60%"}} >
         <p className={styles.cozy}>
           Cozy and Down to Earth Cootage Hotel in Norway.
         </p>

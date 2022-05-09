@@ -3,7 +3,7 @@ import styles from "../SectionThree.module.css"
 export default function Text() {
   return (
     <>
-      <div>
+      <div className={styles.text_top}>
         <p className={styles.cabin}>Cabin Activities</p>
         <p className={styles.dontWorry}>
           Don’t worry to get bored easily in our cabin. We have so many cabin

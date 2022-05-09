@@ -1,35 +1,119 @@
-.photo{
-display:flex;
-gap:24px;
+.photo {
+    width: 50%;
+    display: flex;
+    gap: 24px;
 }
-.photo >img{
-    height: 100%;
+
+.photo>img {
+    width: 100%;
+
 }
-.sectionOne_content{
+
+.sectionOne_content {
     display: flex;
     align-items: center;
-    gap:60px;
+    gap: 60px;
+    padding-top: 80px;
+    padding-bottom: 96px
 }
-.natureText{
-font-family: 'Montserrat-Bold';
-font-style: normal;
-font-weight: 600;
-font-size: 48px;
-line-height: 150%;
-/* or 72px */
 
-letter-spacing: -0.01em;
 
-color: #192252;
+.natureText {
+    font-family: 'Montserrat-Bold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 150%;
+    /* or 72px */
+
+    letter-spacing: -0.01em;
+
+    color: #192252;
 }
-.onePlaceText{
-font-family: 'Montserrat-Regular';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 150%;
-margin-top: 24px;
-margin-bottom: 32px;
-/* or 27px */
-color: #848FAC;
+
+.onePlaceText {
+    font-family: 'Montserrat-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    margin-top: 24px;
+    margin-bottom: 32px;
+    /* or 27px */
+    color: #848FAC;
+}
+
+.reservation {
+    font-family: "Inter-Medium";
+    padding: 16px 32px;
+    background-color: #0e1734;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .natureText {
+        font-size: 36px;
+    }
+
+    .onePlaceText {
+        font-size: 16px;
+    }
+
+    .reservation {
+        padding: 14px 30px;
+        font-size: 14px;
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+
+    .natureText {
+        font-size: 32px;
+    }
+
+    .onePlaceText {
+        font-size: 14px;
+    }
+
+    .reservation {
+        padding: 14px 30px;
+        font-size: 12px;
+    }
+
+    .sectionOne_content {
+        padding: 50px 0 66px 0;
+    }
+
+}
+
+@media only screen and (max-width: 750px) {
+
+    .natureText {
+        font-size: 26px;
+    }
+
+    .onePlaceText {
+        font-size: 10px;
+    }
+
+    .reservation {
+        padding: 12px 28px;
+        font-size: 10px;
+    }
+
+    .sectionOne_content {
+        padding: 40px 0 56px 0;
+
+    }
+
+    .onePlaceText {
+        margin:14px 0 22px 0;
+    }
+
 }

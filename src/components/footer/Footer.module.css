@@ -38,8 +38,9 @@
   font-size: 33px;
 }
 .rightBlock{
-    display: flex;
-    gap: 145px;
+  width:46%;
+  display: flex;
+  justify-content: space-between;
 }
 .Parts > ul > li {
   list-style-type: none;

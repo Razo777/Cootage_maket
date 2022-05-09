@@ -1,7 +1,7 @@
 .sectionTwo_content {
   display: flex;
   align-items: center;
-  gap: 126px;
+  gap: 10.5%;
 }
 .cozy {
   font-family: "Montserrat-Bold";
@@ -37,4 +37,10 @@
   /* or 27px */
 
   color: #848fac;
+}
+.sectionTwoPhoto{
+  width: 40%;
+}
+.sectionTwoPhoto > img{
+  width: 100%;
 }

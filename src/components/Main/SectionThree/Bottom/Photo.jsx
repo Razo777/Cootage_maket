@@ -1,11 +1,11 @@
 import React from 'react'
-
-export default function Photo(props) {
+import styles from '../SectionThree.module.css'
+export default function Photo() {
     
 
     return (
         <>
-            <img src="bottom.png" alt="" />
+            <img className={styles.foto_bottom} src="bottom.png" alt="" />
         </>
     )
 }

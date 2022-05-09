@@ -7,7 +7,7 @@ export default function SectionOne() {
 
     return (
         <>
-            <section style={{paddingTop:'80px', paddingBottom:'96px'}}>
+            <section>
                 <div className={`${style.sectionOne_content} container`}>
                     <Text/>
                     <Photo/>

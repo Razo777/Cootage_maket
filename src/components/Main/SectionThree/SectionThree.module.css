@@ -31,7 +31,7 @@
 .botom_content {
   display: flex;
   align-items: center;
-  gap: 126px;
+  gap: 10.5%;
 }
 .harurTokos {
   font-family: "Montserrat-Bold";
@@ -55,4 +55,10 @@
   /* or 27px */
 
   color: #848fac;
+}
+.foto_bottom, .foto_top{
+  width: 40%;
+}
+.texe_bottom, .text_top{
+  width: 60%;
 }
