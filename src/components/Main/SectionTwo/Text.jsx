@@ -16,7 +16,7 @@ export default function Text() {
           Cootels extends along a private, quiet, and beautiful nature. Stay
           away from crowd and enjoy the cozy and beauty with us.
         </p>
-        <button className='btn'>Learn More</button>
+        <button className={styles.learnMore}>Learn More</button>
       </div>
     </>
   );

@@ -44,3 +44,13 @@
 .sectionTwoPhoto > img{
   width: 100%;
 }
+.learnMore{
+  font-family: "Inter-Medium";
+  padding: 16px 32px;
+  background-color: #0e1734;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+}

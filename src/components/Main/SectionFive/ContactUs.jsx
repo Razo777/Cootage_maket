@@ -10,7 +10,7 @@ export default function ContactUs() {
         below and it will take you to our contact point
       </p>
       <div className={styles.contactUs_btn}>
-          <button className="btn">Contact Us</button>
+          <button className={styles.contact}>Contact Us</button>
           <p>Explore more room</p>
       </div>
     </div>
